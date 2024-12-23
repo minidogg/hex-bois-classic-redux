@@ -4,17 +4,20 @@
     "description": "Client for hex bois redux",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/minidogg/hex-bois-classic-redux.git"
+        "type": "git",
+        "url": "git+https://github.com/minidogg/hex-bois-classic-redux.git"
     },
     "author": "minidogg",
     "license": "GPL-2.0",
     "bugs": {
-      "url": "https://github.com/minidogg/hex-bois-classic-redux/issues"
+        "url": "https://github.com/minidogg/hex-bois-classic-redux/issues"
     },
-    "homepage": "https://github.com/minidogg/hex-bois-classic-redux#readme"
-  }
-  
+    "homepage": "https://github.com/minidogg/hex-bois-classic-redux#readme",
+    "devDependencies": {
+        "webpack": "^5.97.1",
+        "webpack-cli": "^6.0.1"
+    }
+}
