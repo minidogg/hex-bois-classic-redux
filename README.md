@@ -1,2 +1,2 @@
-# hex-bois-classic-redux
-Remake of the old verions of hex bois
+# Hex bois Redux
+Remake of the classic Hex Bois versions

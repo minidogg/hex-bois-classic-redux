@@ -1,0 +1,20 @@
+{
+    "name": "hex-bois-redux-client",
+    "version": "0.1.0",
+    "description": "Client for hex bois redux",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/minidogg/hex-bois-classic-redux.git"
+    },
+    "author": "minidogg",
+    "license": "GPL-2.0",
+    "bugs": {
+      "url": "https://github.com/minidogg/hex-bois-classic-redux/issues"
+    },
+    "homepage": "https://github.com/minidogg/hex-bois-classic-redux#readme"
+  }
+  
