@@ -1,6 +1,7 @@
-const path = require('path');
+import path, { dirname } from 'path'
+const __dirname = import.meta.dirname;
 
-module.exports = {
+export default {
   entry: './src/index.js',
   output: {
     filename: 'game_bundle.js',

@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { Server } from 'socket.io';
 
-import { SERVER_VERSION } from './constants.js';
+import { SERVER_VERSION, PORT } from './constants.js';
 
 const app = express();
 const server = createServer(app);
@@ -20,6 +20,6 @@ io.on('connection', (socket) => {
   console.log('a user connected');
 });
 
-server.listen(3000, () => {
+server.listen(PORT, () => {
   console.log('server running at http://localhost:3000');
 });
